@@ -12,4 +12,8 @@ public class MyController {
 		return "hello Aravind!";
 	}
 
+	@RequestMapping(value = "/myHello2", method = RequestMethod.GET)
+	public String myHello2() {
+		return "hello Aravind2!";
+	}
 }
