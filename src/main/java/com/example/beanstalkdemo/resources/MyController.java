@@ -9,7 +9,9 @@ public class MyController {
 	
 	@RequestMapping(value = "/myHello", method = RequestMethod.GET)
 	public String myHello() {
+		System.out.println("ffff");;
 		return "hello Aravind!";
+		
 	}
 
 	@RequestMapping(value = "/myHello2", method = RequestMethod.GET)
